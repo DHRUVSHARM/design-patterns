@@ -1,0 +1,4 @@
+need to build up objects in stages, not straightforward
+piecewise constructor
+
+provide API to build piecewise
