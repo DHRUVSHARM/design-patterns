@@ -1,0 +1,13 @@
+categorization of patterns is broadly into 4 
+1) creational patterns
+    - constructor
+    - explicit / implicit
+    - whole / step by step
+
+2) structural patterns
+    - wrappers
+    - api design
+
+3) behavorial patterns
+    mostly distinct
+    - unique problemms solved
