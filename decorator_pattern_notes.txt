@@ -1,0 +1,9 @@
+OCP principle 
+want to augment object with additional functionality
+do not want to reqrite or alter existing code (OCP)
+need to be able to interact with existing structures
+options ? 
+    1) inherit from required object (if possible)
+    2) decorator, which references decorated objects
+
+    
