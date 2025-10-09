@@ -1,0 +1,4 @@
+expose many components through a single interface
+balance complexity with presentation
+end user is not exposed to complex internals
+facade is simple easy to understand user interface over a large and sophisticated body of code 
