@@ -1,0 +1,5 @@
+avoid redundancy while storing data
+ex) identical repeating data
+
+idea : space optimization by storing data externally and referring to it instead of storing configuration 
+naively 
