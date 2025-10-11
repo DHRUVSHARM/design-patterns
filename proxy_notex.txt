@@ -1,0 +1,10 @@
+same interface different behavior
+ex - communication proxy
+
+proxy vs decorator 
+
+fundamental difference is that a proxy contains the proxy interface (identical to original interface) and original interface as one layer 
+necessarily it is used to add some extra logic, but to existing interface methods,
+
+decorator is used to decorate the class applied to and requires reference to it , the result is a decorator class that has extra functionality and it is 
+meant to be a different interface than theo original class it is applied on 
