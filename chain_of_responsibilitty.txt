@@ -1,0 +1,10 @@
+a chain of components, that have an ability to process / optionally stop processing at a particular point
+like in a company an employee -> manager -> ceo 
+
+
+Command query separation : 
+command  : ask for an action  / change
+query : simple ask for information without changing anything else
+
+have separate means of sending commands or queries 
+and potentially using chain of responsibilities you can listen to this and modify implementations accordingly if needed
