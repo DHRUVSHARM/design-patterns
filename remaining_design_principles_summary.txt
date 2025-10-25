@@ -1,0 +1,60 @@
+1) command
+
+ordinary statements are perishable , cannot be undone or redone
+cannot serialize a series of actions (call)
+cannot reoo / rollback series of operations
+need something that can represent an operation + record (who + what)
+useful for a post-hoc analysis
+something like a gui tool would use this, multi level undo - redo of ops 
+macro recording uses something similar
+
+so : 
+
+An object that reprents an instruction to perform a particular action, contains all the information necessary,
+for the action to be taken
+
+
+2) interpreter
+
+used to process textual input 
+turn text into oop for ex; interpreters, compilers, html, xml, numeric expressions, regex
+compiler theory - topic in compiler construction course
+
+so: 
+interpreter process structured text data
+tokenizes (lexing)
+then parses these tokens
+
+3) iterator
+
+core functionality of various data structures 
+it is a class which facilitates the traversal 
+keeps reference to current element and knows how to move to the next element 
+needs __iter__ which uses  __next__  , or both 
+raise stopiteration when done 
+
+4) mediator
+
+facilitates communication between components
+like a chat room where people can come in / out
+no point in keeping references between compiler
+mediator helps in communication without being aware or having references to participating components
+chat room is a good ex
+
+typically mediator set while initialization
+engage in bidirectional communication 
+
+
+5) memento
+
+6) observer
+
+7) state
+
+8) strategy
+
+9) template method
+
+10) visitor
+
+11) summary 
