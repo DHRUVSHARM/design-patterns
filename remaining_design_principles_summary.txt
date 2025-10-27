@@ -47,7 +47,19 @@ engage in bidirectional communication
 
 5) memento
 
+return a snapshot ( memento ) of mutation of state to return to that specific
+point in time
+useful for undo redo, and can return placeholder like None to represent failed state change and hence refuse request
+can keep track of the mementos in list to undo redo if memory not an issue and clear in time 
+
 6) observer
+
+need to be informed when certain things happen
+ex : object property changes, object does something, some external events occur
+listen to events, notify when they occur 
+unsubscribe from events when no longer interested 
+
+observer observes observable (often through the generation of events from observable) 
 
 7) state
 
