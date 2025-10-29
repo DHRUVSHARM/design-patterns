@@ -63,6 +63,18 @@ observer observes observable (often through the generation of events from observ
 
 7) state
 
+changes in state can be explicit or be in response to an event 
+object's behavior is determinded by it's state
+object needs to transition from one state to another 
+to manage state formally we need what is callled a FSM
+
+think always about these when designing : 
+
+entry exit conditions
+action for transition  (trigger)
+guard conditions enabling blocking of transition
+default action when no transitions are found for an event 
+
 8) strategy
 
 9) template method
