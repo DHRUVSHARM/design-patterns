@@ -77,6 +77,11 @@ default action when no transitions are found for an event
 
 8) strategy
 
+many alogrithms can be composed into higher + lower level parts 
+high level part can be used to make different things but remains same like a series of steps
+low level implementation might change
+at runtime you specify the details, then that component uses its high level approach wiht your low level strategy to do stuff
+
 9) template method
 
 10) visitor
