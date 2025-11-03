@@ -84,6 +84,13 @@ at runtime you specify the details, then that component uses its high level appr
 
 9) template method
 
+strategy does composition and we need to pass strategy instance to perform the implementation
+template method does the same thing using inheritance
+
+overall algo implemented in base class
+inheritors override the abstract mebers
+template method is invoked to get the work done
+
 10) visitor
 
 11) summary 
