@@ -93,4 +93,49 @@ template method is invoked to get the work done
 
 10) visitor
 
+define a new operation on an entire class hierarchy
+need access to the non common aspects of the class hierarchy
+create an external component to handle the rendering 
+
+visitor is a component that can traverse a structure composed of (maybe related) types
+
 11) summary 
+
+simple summary for all the patterns : 
+
+1) creational: 
+    builder : complicated object with several calls made , 
+    can make several sub-builders that are fluent, to chain
+
+    factory:  unique name, more expressive than initializer
+    can be standalone class or an innerclass abstract factories
+
+    prototype: make object not from scratch, make deep copy (recursive)
+    prototype factory can be done also  
+
+    singelton : decorator / metaclass to ensure single instance exists 
+    can use dependency injection
+
+2) structural 
+    adapter : one interface to adapt to another
+    bridge : decouple abstraction from implementation
+    composite : ind, obj compositons uniformly
+    decorator : python one is different from custom implementation, or add additonal resp to objects
+    facade : single unified interface over set of interfaces
+    flyweight : effeciently support large numbers of similar objects
+    proxy : surrogate object that forwards the calls to the real one
+
+3) behavioral
+    chain of responsibility : allow components to process info in a chain 
+    command : encapsulate request into a separate object (CQS)
+    interpreter : transform textual input to object oriented structures
+    iterator : interface to access elements of an aggregate object , __iter__ , __next__ , can use yield for more imperative and clean implementations
+    mediator : provides mediation between 2 pbjects 
+    memento : tokens representing the system state , good to rollback or go back to a state when the memento was made and returned 
+    obsever : allows notifications of change in the state of the observed (maybe a component / class )
+    state : model systems by having a set of states and model transitions 
+    startegy method : some skeleton where high level details of algo are defined, subparts are taken as params
+    template : same thing as strategy but little better since it uses abstract base class and inheritance
+    visitor : allows a non intrusive additon of functionality to hieracrchies and help traverse ( maybe to collect info or make decisions ) 
+    of complex interconnected data structures
+
